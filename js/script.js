@@ -1,0 +1,1 @@
+console.log("stampa in console")
