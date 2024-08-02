@@ -8,15 +8,18 @@ reset
     box-sizing: border-box;
  }
 
- h1{
-   color: lightcoral;
-   font-size: 3rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
 
  .my-container{
    max-width: 1000px;
    margin: 0 auto ;
+ }
+
+ #numbers-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
  }
